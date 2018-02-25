@@ -22,7 +22,7 @@ namespace DynamicContentExample
                 RegExpValidator = "^[A-Z]{6}[A-Z0-9]{2}([A-Z0-9]{3})?$",
                 Order = 1,
                 Mask = ">???? >?? >AA >AAA",
-                Length = 12
+                Length = 13
             };
             ListOfStuff.Add(bti);
 
