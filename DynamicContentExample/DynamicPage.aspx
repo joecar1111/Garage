@@ -13,7 +13,7 @@
             This is a dynamic page.
         </div>
         <div class="col-md-4">
-            <asp:Button ID="ShowIt" runat="server" Text="Show It" OnClick="ShowIt_Click" />
+            <asp:Button ID="ShowItNow" runat="server" Text="Show It" OnClick="ShowIt_Click" />
         </div>
         <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
     </form>

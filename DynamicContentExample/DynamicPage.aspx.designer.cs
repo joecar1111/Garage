@@ -13,13 +13,13 @@ namespace DynamicContentExample {
     public partial class DynamicPage {
         
         /// <summary>
-        /// ShowIt control.
+        /// ShowItNow control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ShowIt;
+        protected global::System.Web.UI.WebControls.Button ShowItNow;
         
         /// <summary>
         /// PlaceHolder1 control.
