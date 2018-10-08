@@ -8,10 +8,13 @@ namespace DynamicContentExample
 {
     public class WhatShouldBeShown
     {
+        private const string bankAccountNumber = "Bank Account Number";
+
         public WhatShouldBeShown()
         {
             BankTransferItem bti;
             NumberOfThingsToShow = 10;
+            TypeOfStuff = "CarInfo";
             TypeOfStuff = "CarInfo";
             ListOfStuff = new List<BankTransferItem>();
             //create a few.  This would normally come from a database.
@@ -35,10 +38,12 @@ namespace DynamicContentExample
                 Length = 8
             };
             ListOfStuff.Add(bti);
+            int i = 0;
+            i++;
 
             bti = new BankTransferItem("AccountNumber")
             {
-                Label = "Bank Account Number",
+                Label = bankAccountNumber,
                 RegExpValidator = "",
                 Order = 1,
                 Mask = "",

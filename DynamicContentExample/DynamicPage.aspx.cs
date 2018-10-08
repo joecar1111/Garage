@@ -52,7 +52,6 @@ namespace DynamicContentExample
                 tr.Cells.Add(tc2);
                 tb.Rows.Add(tr);
             }
-            PlaceHolder1.Controls.Add(new ScriptManager());
             PlaceHolder1.Controls.Add(tb);
         }
     }
